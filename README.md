@@ -16,8 +16,8 @@ Algorithm:
 1) take all required input data
 2) preprocessing the input
   2.1) add a whitespace after punctuations (.,?!:)
-2.2) lowercase all the tokens
-2.3) convert the short words into expanded form
+  2.2) lowercase all the tokens
+  2.3) convert the short words into expanded form
 3) Model creation
 3.1) Unigram Model
 3.1.1) A dictionary with all tokens with their respective frequency is created
