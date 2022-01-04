@@ -15,7 +15,7 @@ finally the output file name (output_file.txt)
 Algorithm:
 1) take all required input data
 2) preprocessing the input
-2.1) add a whitespace after punctuations (.,?!:)
+  2.1) add a whitespace after punctuations (.,?!:)
 2.2) lowercase all the tokens
 2.3) convert the short words into expanded form
 3) Model creation
