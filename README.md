@@ -1,10 +1,11 @@
 # An-Ngram-language-model-from-scratch
 
-Problem Description:
+# Problem Description:
 This is a Language model that generates text based on Unigram, Bigram and
 Trigram model. Training data of over 1,000,000 tokens have been used to
 train this model. Data was collected from project Gutenberg
-Example of input and output:
+
+# Example of input and output:
 This program tasks below input: python program_file model(n) generated_sentence(m) input_file output_file
 for example: PA2.py 1 5 2554.txt 2600.txt 2701-0.txt output_file.txt
 here, PA2.py is program file name
@@ -12,12 +13,14 @@ here, PA2.py is program file name
 10 means 10 sentence will be generated using the selected model
 then the 3 input file names (2554.txt 2600.txt 2701-0.txt)
 finally the output file name (output_file.txt)
-Algorithm:
+
+# Algorithm:
 1) take all required input data
+
 2) preprocessing the input
-  2.1) add a whitespace after punctuations (.,?!:)
-  2.2) lowercase all the tokens
-  2.3) convert the short words into expanded form
+2.1) add a whitespace after punctuations (.,?!:)
+2.2) lowercase all the tokens
+2.3) convert the short words into expanded form
 3) Model creation
 3.1) Unigram Model
 3.1.1) A dictionary with all tokens with their respective frequency is created
